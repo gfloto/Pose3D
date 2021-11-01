@@ -36,7 +36,7 @@ mkdir out_files
 ```
 
 ### Running the Code
-Simply type the command `python run.py` and the program will begin. The `window_size` variable changes the number of images for the temporal convolutional network. Open a new terminal session and run the command `python viz.py` to graph the predictions in real time, which look like the below video. The program writes output files to `out_files/` where `out_files/joints.npy` contains the final joint coordinate predictions. 
+Simply type the command `python run.py` and the program will begin. The `window_size` variable changes the number of images for the temporal convolutional network. Open a new terminal session and run the command `python viz.py` to graph the predictions in real time, which will look like the below video. The program writes output files to `out_files/` where `out_files/joints.npy` contains the final joint coordinate predictions. 
 
 <p align="center">
   <img src="imgs/sample.gif" width="625" height="500" \>
